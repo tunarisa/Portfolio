@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunar ISA | Portfolio</title>
+  <meta name="description" content="Portfolio de Tunar ISA, étudiant en BUT Informatique. Projets, compétences et CV.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="fog-overlay" aria-hidden="true"></div>
+
+  <!-- ===== En-tête + navigation ===== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a href="#top" class="logo">TI.</a>
+
+      <div class="nav-right">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Bouton mode jour / nuit : logos à ajouter dans assets/images/logos/ -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Changer de mode d'affichage">
+          <img src="assets/images/logos/lebron_night.png" alt="Mode sombre" class="icon-lune">
+          <img src="assets/images/logos/lebron_sun.png" alt="Mode clair" class="icon-soleil">
+        </button>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h1>Tunar ISA</h1>
+        <p class="hero-subtitle">
+          Étudiant en BUT Informatique, je développe des projets en programmation et en bases de données
+          afin de renforcer mes compétences et de me préparer à une future carrière d'ingénieur en informatique.
+        </p>
+
+        <ul class="reseaux-sociaux hero-reseaux">
+          <li>
+            <a href="https://linkedin.com/in/tunar-isa-0610a3221" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <img viewbox="0 0 24 24" src="assets/images/logos/LinkedIn_icon.svg.webp" alt="Logo Linkedin" class="skill-logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tonpseudo" target="_blank" rel="noopener" aria-label="GitHub">
+              <img viewbox="0 0 24 24" src="assets/images/logos/git.png" alt="Logo Github" class="skill-logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tunarriss0" target="_blank" rel="noopener" aria-label="Instagram">
+              <img viewbox="0 0 24 24" src="assets/images/logos/Instagram_logo_2016.svg.webp" alt="Instagram Logo" class="skill-logo">
+            </a>
+          </li>
+        </ul>
+
+        <div class="hero-cta">
+          <a href="#cv" class="btn">Parcours</a>
+          <a href="#projets" class="btn">Projets</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/images/Photo_pro_portfolio.png" alt="Photo de Tunar ISA">
+      </div>
+    </section>
+
+    <!-- ===== À propos ===== -->
+    <section id="apropos" class="section">
+      <h2>À propos</h2>
+      <p>
+        Étudiant en BUT Informatique, je développe des projets en programmation et en bases de données
+        afin de renforcer mes compétences et de me préparer à une future carrière d'ingénieur en informatique.
+      </p>
+    </section>
+
+    <!-- ===== Compétences (avec logo au-dessus de chaque nom) ===== -->
+    <section id="competences" class="section">
+      <h2>Compétences</h2>
+
+      <div class="competences-groupe">
+        <h3>Langages</h3>
+        <div class="competences-grille">
+          <div class="skill-card">
+            <img src="assets/images/logos/html.png" alt="Logo HTML" class="skill-logo">
+            <span>HTML</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/css.webp" alt="Logo CSS" class="skill-logo">
+            <span>CSS</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/js.png" alt="Logo JavaScript" class="skill-logo">
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/python.webp" alt="Logo Python" class="skill-logo">
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/kotlin.png" alt="Logo Kotlin" class="skill-logo">
+            <span>Kotlin</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/sql.webp" alt="Logo SQL" class="skill-logo">
+            <span>SQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="competences-groupe">
+        <h3>Outils</h3>
+        <div class="competences-grille">
+          <div class="skill-card">
+            <img src="assets/images/logos/git.png" alt="Logo Git / GitHub" class="skill-logo">
+            <span>Git / GitHub</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/vscode.webp" alt="Logo VS Code" class="skill-logo">
+            <span>VS Code</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/IntelliJ_IDEA_Icon.svg.webp" alt="Logo IntelliJ" class="skill-logo">
+            <span>IntelliJ</span>
+          </div>
+          <div class="skill-card">
+            <img src="assets/images/logos/sql.webp" alt="Logo SQL Developer" class="skill-logo">
+            <span>SQL Developer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projets : 3 blocs en profondeur (centre / gauche / droite) ===== -->
+    <section id="projets" class="section section-projets">
+      <h2>Projets</h2>
+
+      <!-- Scène fixe : overflow hidden => les cartes ne sortent jamais de l'écran.
+           Cliquer sur une carte la fait passer au centre (voir script.js). -->
+      <div class="projets-stage" id="projets-stage">
+
+        <article class="carte-projet" data-index="0">
+          <div class="carte-projet-media">
+            <video src="assets/videos/particules.webm" poster="assets/images/projet-particules.jpg" autoplay muted loop playsinline></video>
+          </div>
+          <div class="carte-contenu">
+            <h3>Projet particules</h3>
+            <p class="projet-tag">Projet scolaire</p>
+            <p>Simulation de particules en Golang, avec modification en temps réel des propriétés (taille, vitesse, couleur, gravité, rotation...).</p>
+          </div>
+        </article>
+
+        <article class="carte-projet" data-index="1">
+          <div class="carte-projet-media">
+            <img src="assets/images/logos/sql.webp" alt="Aperçu de la base de données ferroviaire">
+          </div>
+          <div class="carte-contenu">
+            <h3>Base de données — transport ferroviaire</h3>
+            <p class="projet-tag">Projet scolaire</p>
+            <p>Conception et gestion d'une base de données pour organiser et optimiser le transport ferroviaire.</p>
+          </div>
+        </article>
+
+        <article class="carte-projet" data-index="2">
+          <div class="carte-projet-media">
+            <img src="assets/images/portfolio.png" alt="Aperçu du portfolio personnel">
+          </div>
+          <div class="carte-contenu">
+            <h3>Portfolio</h3>
+            <p class="projet-tag">Projet personnel</p>
+            <p>Conception d'un portfolio personnel présentant mes projets, mon expérience et ma motivation.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="projets-cta">
+        <a href="projets.html" class="btn">Voir plus</a>
+      </div>
+    </section>
+
+    <!-- ===== Parcours : cartes verticales répétables ===== -->
+    <section id="cv" class="section">
+      <h2>Parcours</h2>
+
+      <a href="assets/CV_2026-09-20_Tunar_ISA_FR.pdf" download class="btn">Télécharger mon CV (PDF)</a>
+
+      <div class="parcours-liste">
+
+        <article class="carte-parcours">
+          <img src="assets/images/logos/iut.png" alt="Logo IUT" class="parcours-logo">
+          <div class="parcours-contenu">
+            <div class="parcours-entete">
+              <h3>IUT de Nantes, France</h3>
+              <span class="parcours-date">2025 - 2028</span>
+            </div>
+            <p>BUT Informatique</p>
+          </div>
+        </article>
+
+        <article class="carte-parcours">
+          <img src="assets/images/logos/lycee.png" alt="Logo entreprise" class="parcours-logo">
+          <div class="parcours-contenu">
+            <div class="parcours-entete">
+              <h3>Lycée Blanche de Castille - Nantes, France</h3>
+              <span class="parcours-date">2022 - 2025</span>
+            </div>
+            <p>Baccalauréat général</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Une question, une offre de stage ? Écrivez-moi ici.</p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Envoyer</button>
+
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Tunar ISA - Tous droits réservés</p>
+      <ul class="footer-reseaux">
+        <li>
+          <a href="https://linkedin.com/in/tonpseudo" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="assets/images/logos/LinkedIn_icon.svg.webp" alt="LinkedIn">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/tonpseudo" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="assets/images/logos/git.png" alt="GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/tonpseudo" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="assets/images/logos/Instagram_logo_2016.svg.webp" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
