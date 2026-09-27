@@ -153,6 +153,7 @@ textarea:focus-visible {
 .nav-right { display: flex; align-items: center; gap: 1.5rem; }
 
 .nav-menu { display: flex; gap: 2rem; }
+.nav-menu img { display: none }
 .nav-menu a { color: var(--ink); font-weight: 500; }
 .nav-menu a:hover,
 .nav-menu a.active {
