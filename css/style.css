@@ -280,7 +280,7 @@ textarea:focus-visible {
 
 .competences-grille {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: 1rem;
 }
 
@@ -298,13 +298,106 @@ textarea:focus-visible {
   color: var(--emerald);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
+
+.skill-card-golang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0rem;
+  background: var(--white);
+  border: 1px solid var(--emerald-line);
+  border-radius: var(--radius-md);
+  padding: 0.8rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--emerald);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.skill-card-gitlab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  background: var(--white);
+  border: 1px solid var(--emerald-line);
+  border-radius: var(--radius-md);
+  padding: 0.8rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--emerald);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.skill-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--white);
+  border: 1px solid var(--emerald-line);
+  border-radius: var(--radius-md);
+  padding: 1rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--emerald);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.skill-card-mattermost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  background: var(--white);
+  border: 1px solid var(--emerald-line);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--emerald);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
 .skill-card:hover {
   transform: translateY(-4px);
   border-color: var(--emerald);
   box-shadow: 0 8px 20px rgba(0, 54, 24, 0.1);
 }
 
+.skill-card-golang:hover {
+  transform: translateY(-4px);
+  border-color: var(--emerald);
+  box-shadow: 0 8px 20px rgba(0, 54, 24, 0.1);
+}
+
+.skill-card-gitlab:hover {
+  transform: translateY(-4px);
+  border-color: var(--emerald);
+  box-shadow: 0 8px 20px rgba(0, 54, 24, 0.1);
+}
+
+.skill-card-1:hover {
+  transform: translateY(-4px);
+  border-color: var(--emerald);
+  box-shadow: 0 8px 20px rgba(0, 54, 24, 0.1);
+}
+
+.skill-card-mattermost:hover {
+  transform: translateY(-4px);
+  border-color: var(--emerald);
+  box-shadow: 0 8px 20px rgba(0, 54, 24, 0.1);
+}
+
 .skill-logo { width: 42px; height: 42px; object-fit: contain; }
+
+.skill-logo-golang { width: 60px; height: 60px; object-fit: contain; }
+
+.skill-logo-gitlab { width: 60px; height: 60px; object-fit: contain; }
+
+.skill-logo-1 { width: 53px; height: 53px; object-fit: contain; }
+
+.skill-logo-mattermost { width: 42px; height: 42px; object-fit: contain; }
 
 /* ===========================================================
    PROJETS (ACCUEIL) — scène fixe, 3 blocs : centre / gauche / droite
